@@ -1,0 +1,26 @@
+.nav-container {
+    width: 10vw;
+    height: 80vh;
+}
+.logo {
+    font-size: 30px;
+    font-family: Arial Narrow Bold ;
+}
+li {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+.nav-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0px;
+}
+.li-active {
+    background-color: lightblue;
+    color: #0000FF;
+}
